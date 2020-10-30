@@ -8,7 +8,7 @@ public class RemoveCharacter {
         String word = "algoritmica";
         System.out.println("Enter a word: " + word);
         String s = "a";
-        System.out.println("Enter a character to remove:n " +s);
+        System.out.println("Enter a character to remove: " +s);
         char c= s.charAt(0);
         for (int i = 0; i<word.length(); i++) {
             if(word.charAt(i)== c) {
