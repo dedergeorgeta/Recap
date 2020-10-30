@@ -2,14 +2,14 @@ package algorithms;
 
 public class CountVowel {
     public static void main(String[] args) {
-        String world = "afara ploua";
+        String word = "afara ploua";
         int count = 0;
-        for (int i = 0; i < world.length(); i++) {
-            if(world.charAt(i) == 'a' ||
-            world.charAt(i) == 'e' ||
-            world.charAt(i) == 'i' ||
-            world.charAt(i) == 'o' ||
-            world.charAt(i) == 'u' ) {
+        for (int i = 0; i < word.length(); i++) {
+            if(word.charAt(i) == 'a' ||
+            word.charAt(i) == 'e' ||
+            word.charAt(i) == 'i' ||
+            word.charAt(i) == 'o' ||
+            word.charAt(i) == 'u' ) {
                 count++;
             }
         }
